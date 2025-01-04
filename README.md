@@ -49,7 +49,7 @@ O sistema consiste em um backend implementado em **Spring Boot** e um frontend c
 
 ### Backend:
 
-```
+```plaintext
 OAKTecnologia.estagio
 ├── controllers
 │   ├── FindProductsController.java    # Controlador para o endpoint de busca
@@ -69,35 +69,40 @@ OAKTecnologia.estagio
 ├── Application.java                   # Classe principal para rodar a aplicação
 ```
 
-````
-
 ---
 
 ## Instalação e Execução
 
 ### Pré-requisitos:
+
 1. **Java 17** ou superior.
 2. **Maven** para gerenciamento de dependências.
 3. **PostgreSQL** configurado com as credenciais necessárias.
 4. **Postman** (opcional, para testes dos endpoints).
 
 ### Passos:
+
 1. Clone este repositório:
+
    ```bash
    git clone https://github.com/LuizFernandoCSilva/OAK.git
-````
+   ```
 
 2. Configure o banco de dados no arquivo `application.properties`:
+
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:XXXX/nome_do_banco
+   spring.datasource.url=jdbc:postgresql://localhost:5432/nome_do_banco
    spring.datasource.username=seu_usuario
    spring.datasource.password=sua_senha
    spring.jpa.hibernate.ddl-auto=update
    ```
+
 3. Compile e execute o projeto:
+
    ```bash
    mvn spring-boot:run
    ```
+
 4. Acesse a documentação do Swagger:
    ```
    http://localhost:8080/swagger-ui.html
@@ -151,7 +156,7 @@ OAKTecnologia.estagio
 
 #### Respostas:
 
-- **200 Created**: Produto criado com sucesso.
+- **201 Created**: Produto criado com sucesso.
 
   ```json
   {
@@ -182,13 +187,11 @@ OAKTecnologia.estagio
 
 ## Contato
 
-- **Nome**: [Luiz Fernando Costa Silva]
-- **E-mail**: [luiz.fernandocsilva17@gmail.com]
-- **LinkedIn**: [(http://www.linkedin.com/in/lfcsilva)]
-- **GitHub**: [(https://github.com/LuizFernandoCSilva)]
+- **Nome**: Luiz Fernando Costa Silva
+- **E-mail**: luiz.fernandocsilva17@gmail.com
+- **LinkedIn**: [http://www.linkedin.com/in/lfcsilva](http://www.linkedin.com/in/lfcsilva)
+- **GitHub**: [https://github.com/LuizFernandoCSilva](https://github.com/LuizFernandoCSilva)
 
 ---
 
 Espero que este projeto demonstre minhas habilidades técnicas e minha capacidade de organização para desenvolvimento de software. Agradeço pela oportunidade de compartilhar este trabalho!
-
-#
