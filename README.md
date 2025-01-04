@@ -76,14 +76,12 @@ OAKTecnologia.estagio
 ## Instalação e Execução
 
 ### Pré-requisitos:
-
 1. **Java 17** ou superior.
 2. **Maven** para gerenciamento de dependências.
-3. **PostegreSQL** configurado com as credenciais necessárias.
+3. **PostgreSQL** configurado com as credenciais necessárias.
 4. **Postman** (opcional, para testes dos endpoints).
 
 ### Passos:
-
 1. Clone este repositório:
    ```bash
    git clone https://github.com/LuizFernandoCSilva/OAK.git
